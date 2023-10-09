@@ -46,6 +46,7 @@
       </nav>
     </div>
   </header>
+  
   <div class="page-content">
     <div>
       <div class="profile-page">
@@ -606,7 +607,7 @@
 
     $error = "-";
 
-    if(isset($_POST["user"])){
+    if(isset($_POST["name_full"])){
 
 
       $fullname = $_POST["name_full"];
@@ -630,13 +631,8 @@
       }
     }
 
-    echo'<div class="alert alert-success">
-        You\'r message has been sent successfully :)
-    </div>
-    
-    <meta http-equiv ="refresh" content="2   url=home.html">'
+   
 
-  
 
   ?>
 
@@ -696,6 +692,7 @@
                           <div class="col">
                             <button class="btn btn-primary" type="submit">Send</button>
                           </div>
+               
                         </div>
                       </form>
                     </div>
@@ -708,7 +705,6 @@
                       <p class="pb-2">+4915151591585</p>
                       <p class="mb-0"><strong>Email</strong></p>
                       <p>prmomeni@outlook.com</p>
-                    </div>
                   </div>
                 </div>
               </div>
