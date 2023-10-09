@@ -606,7 +606,7 @@
 
     $error = "-";
 
-    if(isset($_POST["name_full"])){
+    if(isset($_POST["user"])){
 
 
       $fullname = $_POST["name_full"];
@@ -630,82 +630,84 @@
       }
     }
 
-    if($error == "-"){
     echo'<div class="alert alert-success">
         You\'r message has been sent successfully :)
-    </div>'
-    }
+    </div>
+    
+    <meta http-equiv ="refresh" content="2   url=home.html">'
+
+  
+
   ?>
 
   
 
 
-  <from method="post" action="index.php">
-    <div class="section" id="contact">
-      <div class="cc-contact-information" style="background-image: url('images/contact.jpg')">
-        <div class="container">
-          <div class="cc-contact">
-            <div class="row">
-              <div class="col-md-9">
-                <div class="card mb-0" data-aos="zoom-in">
-                  <div class="h4 text-center title">Contact Me</div>
-                  <div class="row">
-                    <div class="col-md-6">
-                      <div class="card-body">
-                        <form action="https://microsoft.com/prmomeni@outlook.com" method="POST">
-                          <div class="p pb-3"><strong>Feel free to contact me </strong></div>
-                          <div class="row mb-3">
-                            <div class="col">
-                              <div class="input-group"><span class="input-group-addon"><i
-                                    class="fa fa-user-circle"></i></span>
-                                <input class="form-control" type="text" name="name_full" placeholder="Name"
-                                  required="required" />
-                              </div>
+
+  <div class="section" id="contact">
+    <div class="cc-contact-information" style="background-image: url('images/contact.jpg')">
+      <div class="container">
+        <div class="cc-contact">
+          <div class="row">
+            <div class="col-md-9">
+              <div class="card mb-0" data-aos="zoom-in">
+                <div class="h4 text-center title">Contact Me</div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <form action="index.php" method="POST">
+                        <div class="p pb-3"><strong>Feel free to contact me </strong></div>
+                        <div class="row mb-3">
+                          <div class="col">
+                            <div class="input-group"><span class="input-group-addon"><i
+                                  class="fa fa-user-circle"></i></span>
+                              <input class="form-control" type="text" name="name_full" placeholder="Name"
+                                required="required" />
                             </div>
                           </div>
-                          <div class="row mb-3">
-                            <div class="col">
-                              <div class="input-group"><span class="input-group-addon"><i
-                                    class="fa fa-file-text"></i></span>
-                                <input class="form-control" type="text" name="Subject" placeholder="Subject"
-                                  required="required" />
-                              </div>
+                        </div>
+                        <div class="row mb-3">
+                          <div class="col">
+                            <div class="input-group"><span class="input-group-addon"><i
+                                  class="fa fa-file-text"></i></span>
+                              <input class="form-control" type="text" name="Subject" placeholder="Subject"
+                                required="required" />
                             </div>
                           </div>
-                          <div class="row mb-3">
-                            <div class="col">
-                              <div class="input-group"><span class="input-group-addon"><i
-                                    class="fa fa-envelope"></i></span>
-                                <input class="form-control" type="email" name="_replyto" placeholder="E-mail"
-                                  required="required" />
-                              </div>
+                        </div>
+                        <div class="row mb-3">
+                          <div class="col">
+                            <div class="input-group"><span class="input-group-addon"><i
+                                  class="fa fa-envelope"></i></span>
+                              <input class="form-control" type="email" name="_replyto" placeholder="E-mail"
+                                required="required" />
                             </div>
                           </div>
-                          <div class="row mb-3">
-                            <div class="col">
-                              <div class="form-group">
-                                <textarea class="form-control" name="message" placeholder="Your Message"
-                                  required="required"></textarea>
-                              </div>
+                        </div>
+                        <div class="row mb-3">
+                          <div class="col">
+                            <div class="form-group">
+                              <textarea class="form-control" name="message" placeholder="Your Message"
+                                required="required"></textarea>
                             </div>
                           </div>
-                          <div class="row">
-                            <div class="col">
-                              <button class="btn btn-primary" type="submit">Send</button>
-                            </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <button class="btn btn-primary" type="submit">Send</button>
                           </div>
-                        </form>
-                      </div>
+                        </div>
+                      </form>
                     </div>
-                    <div class="col-md-6">
-                      <div class="card-body">
-                        <p class="mb-0"><strong>Address </strong></p>
-                        <p class="pb-2">40/34 Dwell Melbourne 3001</p>
-                        <p class="mb-0"><strong>Phone</strong></p>
-                        <p class="pb-2">+4915151591585</p>
-                        <p class="mb-0"><strong>Email</strong></p>
-                        <p>prmomeni@outlook.com</p>
-                      </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <p class="mb-0"><strong>Address </strong></p>
+                      <p class="pb-2">40/34 Dwell Melbourne 3001</p>
+                      <p class="mb-0"><strong>Phone</strong></p>
+                      <p class="pb-2">+4915151591585</p>
+                      <p class="mb-0"><strong>Email</strong></p>
+                      <p>prmomeni@outlook.com</p>
                     </div>
                   </div>
                 </div>
@@ -715,7 +717,7 @@
         </div>
       </div>
     </div>
-  </from>
+  </div>
 
 
 
