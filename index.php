@@ -137,18 +137,18 @@
                   </div>
                 </div>
                 <div class="col-md-6">
-                  <div class="progress-container progress-primary"><span class="progress-badge">C, C++</span>
+                  <div class="progress-container progress-primary"><span class="progress-badge">Python AI</span>
                     <div class="progress">
                       <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
                         data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-                        aria-valuemax="100" style="width: 90%;"></div><span class="progress-value">90%</span>
+                        aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">90%</span>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-6">
-                  <div class="progress-container progress-primary"><span class="progress-badge">C#, JavaScript</span>
+                  <div class="progress-container progress-primary"><span class="progress-badge">Angular & Ionic</span>
                     <div class="progress">
                       <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
                         data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
@@ -157,7 +157,7 @@
                   </div>
                 </div>
                 <div class="col-md-6">
-                  <div class="progress-container progress-primary"><span class="progress-badge">PHP, SQL</span>
+                  <div class="progress-container progress-primary"><span class="progress-badge">C#, JavaScript</span>
                     <div class="progress">
                       <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
                         data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
@@ -168,7 +168,7 @@
               </div>
               <div class="row">
                 <div class="col-md-6">
-                  <div class="progress-container progress-primary"><span class="progress-badge">HTML, CSS</span>
+                  <div class="progress-container progress-primary"><span class="progress-badge">PHP, SQL</span>
                     <div class="progress">
                       <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
                         data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
@@ -177,7 +177,7 @@
                   </div>
                 </div>
                 <div class="col-md-6">
-                  <div class="progress-container progress-primary"><span class="progress-badge">Bootstrap</span>
+                  <div class="progress-container progress-primary"><span class="progress-badge">HTML, CSS</span>
                     <div class="progress">
                       <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
                         data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
@@ -188,7 +188,7 @@
               </div>
               <div class="row">
                 <div class="col-md-6">
-                  <div class="progress-container progress-primary"><span class="progress-badge">Microsoft Office</span>
+                  <div class="progress-container progress-primary"><span class="progress-badge">C and C++</span>
                     <div class="progress">
                       <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
                         data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
@@ -197,7 +197,7 @@
                   </div>
                 </div>
                 <div class="col-md-6">
-                  <div class="progress-container progress-primary"><span class="progress-badge">Photoshop</span>
+                  <div class="progress-container progress-primary"><span class="progress-badge">Bootstrap</span>
                     <div class="progress">
                       <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
                         data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
