@@ -59,7 +59,7 @@
               <div class="content-center">
                 <div class="cc-profile-image"><a href="#"><img src="images\rm1.jpg" alt="Image" /></a></div>
                 <div class="h2 title">Parsa Momeni</div>
-                <p class="category text-white">Web Developer, Software Tester</p><a
+                <p class="category text-white">Full Stack & AI Developer</p><a
                   class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in"
                   data-aos-anchor="data-aos-anchor">Hire Me</a><a class="btn btn-primary" href="./CV_Parsa_Momeni.zip"
                   data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
